@@ -11967,19 +11967,32 @@ textarea.form-control-lg {
   }
 }
 html {
-  position: relative;
-  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
 }
 
 main {
-  margin-bottom: 225px;
+  margin-bottom: 0;
 }
 
 footer.footer {
-  padding: 15px;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
+  padding-top: 20px;
+}
+
+.footer-container {
+  background-color: #343a40;
+  color: white;
+  padding: 20px 0;
+}
+
+.container-fluid, .container-sm, .container-md, .container-lg, .container-xl, .container-xxl {
+  padding: 0;
 }
 
 p {
@@ -11990,6 +12003,11 @@ p {
 h1, .h1 {
   font-family: "Montserrat", sans-serif;
   font-size: 48px;
+}
+
+h2, .h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
 }
 
 .Bigtitle-image {
