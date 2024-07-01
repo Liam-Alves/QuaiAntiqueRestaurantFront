@@ -12042,7 +12042,8 @@ h2, .h2 {
 .image-card {
   position: relative;
 }
-.image-card:hover .titre-image {
+.image-card:hover .titre-image,
+.image-card:hover .action-image-buttons {
   opacity: 1;
 }
 .image-card:hover img {
@@ -12058,7 +12059,31 @@ h2, .h2 {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+.image-card .action-image-buttons {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  padding: 5px;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-end;
+  opacity: 0;
+  transition: all 0.3s;
+}
 
 .form-label {
   color: #52796F;
+}
+
+.text-right {
+  text-align: right;
+  transition: all 0.3s;
+  font-family: "Hind Madurai", serif;
+  font-size: 18px;
+  color: #354F52;
+}
+
+.underline {
+  text-decoration: underline;
 }/*# sourceMappingURL=main.css.map */
