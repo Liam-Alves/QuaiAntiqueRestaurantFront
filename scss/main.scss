@@ -12,11 +12,14 @@ html{
 
 body {
     display: flex;
-    flex-direction: column; }
+    flex-direction: column; 
+    min-height: 100vh;
+}
+    
 
 main{
     margin-bottom: 0;
-    
+     
 }
 
 footer.footer{
@@ -144,3 +147,10 @@ h2{
 
   }
   
+  .allreservations{
+    a{
+        display: block;
+        color: $black;
+        padding: 10px;
+    }
+  }

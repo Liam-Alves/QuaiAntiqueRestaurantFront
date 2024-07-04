@@ -11975,6 +11975,7 @@ html {
 body {
   display: flex;
   flex-direction: column;
+  min-height: 100vh;
 }
 
 main {
@@ -12086,4 +12087,10 @@ h2, .h2 {
 
 .underline {
   text-decoration: underline;
+}
+
+.allreservations a {
+  display: block;
+  color: #2F3E46;
+  padding: 10px;
 }/*# sourceMappingURL=main.css.map */
